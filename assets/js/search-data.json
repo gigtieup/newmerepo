@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Links",
+            "content": "My First Quiz . Quinn&#39;s Yasha&#39;s Aaron&#39;s James&#39;s . toc: true | badges: true | comments: true | categories: [jupyter] | .",
+            "url": "https://gigtieup.github.io/quinnbireley7/2022/09/01/links.html",
+            "relUrl": "/2022/09/01/links.html",
+            "date": " • Sep 1, 2022"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "CS Terms.",
             "content": "Push/Pull - to send/recieve code to and from GitHub . Print - input that prints a specific method on the screen . Markdown - syntax used to format plain text . Define - defining a function or method . If statement - used for conditional execution . Front Matter - section of code that is on top of files with key-values . Variable - word used as a container to hold information . String - series of characters . Boolean - value that is either true or false .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/08/29/vocab.html",
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "My First Quiz",
             "content": "class Question: def __init__(self, prompt, answer): self.prompt = prompt self.answer = answer question_prompts = [ &quot;Chose the correct definision for a Vector (c++) n(a) A sequential container to store elements and NOT index based n(b) A fixed-size sequential collection of elements of the same type and it is index based&quot;, &quot;Can you reverse a string in Java? nyes/ nno&quot;, &quot;Is this working? nyes/ nno&quot;, &quot;What is this letter? (y) n(y) n(p)&quot;, ] questions = [ Question(question_prompts[0], &quot;a&quot;), Question(question_prompts[1], &quot;no&quot;), Question(question_prompts[2], &quot;yes&quot;), Question(question_prompts[3], &quot;y&quot;), ] def run_quiz(questions): score = 0 for question in questions: answer = input(question.prompt) if answer == question.answer: score += 1 print(&quot;you got&quot;, score, &quot;out of&quot;, len(questions)) run_quiz(questions) #_____/ _____/ __________/ _____/ ____/ ___ # ___/ __ / ///////// _____/ ////////____/ ///////// _ / ///////// _ # __/ ///////// _ / _______ / ___/ /____________ // ______ ///__ / _______ / _ # _ / _______ / _ / /___/ _______________ //// _________ / /__ # _ / _ / /////////____ / __________________ //// ______ / /////////____ # _ / ///////// _ / _____________ // ____________________ //// ___ / _____________ # _ / _______ / _ / ______________ /// ___________/ ______ // __ / _____________ # _ / _______ / _ / ________________ //// _ /// /___ / _____________ # _ ///________ ///__ ///____________________ /////////____ ///////////_____ ///______________ .",
             "url": "https://gigtieup.github.io/quinnbireley7/jupyter/2022/08/29/my-quiz.html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "My Day.",
             "content": "6:05-6:20 . Wake up &amp; Eat . 6:20-7:10 . Workout . 7:10-7:45 . Shower &amp; Eat again . 7:45-8:10 . Get ready for school . 8:10-8:15 . leave for school . 3:45-4:00 . Get home from school . 4:00-8:00 . Go to my job at B&amp;B . 8:00-8:20 . Get home &amp; Eat dinner . 8:30-12:45 . Homework . 12:45-1:00 . Shower &amp; Go to bed .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/08/29/My-Day.html",
@@ -34,7 +45,7 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "My first blog post.",
             "content": "My name is Quinn Bireley and I love to surf. .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/08/22/first-post.html",
@@ -45,7 +56,7 @@
     
   
     
-        ,"post4": {
+        ,"post5": {
             "title": "My Jupyter Notebook",
             "content": "print(&quot;hello&quot;) .",
             "url": "https://gigtieup.github.io/quinnbireley7/jupyter/2022/08/22/first-notebook.html",
