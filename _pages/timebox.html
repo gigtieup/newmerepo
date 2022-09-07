@@ -18,6 +18,13 @@ search_exclude: true
        <td>{{ i }}</td>
        <td>{{ site.weekly_units[i] }}</td>
    </tr>
+
+   {% for i in (1..site.week_number) %}
+ 
+   <tr>
+       <td>{{ i }}</td>
+       <td>{{ site.weekly_units[i] }}</td>
+   </tr>
  
    {% endfor %}
  
