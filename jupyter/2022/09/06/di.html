@@ -4,21 +4,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>My First Quiz | Quinns fastpages</title>
+<title>Lists, Dictionaries, and Iterations | Quinns fastpages</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="My First Quiz" />
+<meta property="og:title" content="Lists, Dictionaries, and Iterations" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="My First Quiz" />
-<meta property="og:description" content="My First Quiz" />
+<meta name="description" content="Lists, Dictionaries, and Iterations" />
+<meta property="og:description" content="Lists, Dictionaries, and Iterations" />
 <link rel="canonical" href="https://gigtieup.github.io/quinnbireley7/jupyter/2022/09/06/di.html" />
 <meta property="og:url" content="https://gigtieup.github.io/quinnbireley7/jupyter/2022/09/06/di.html" />
 <meta property="og:site_name" content="Quinns fastpages" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-09-06T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="My First Quiz" />
+<meta property="twitter:title" content="Lists, Dictionaries, and Iterations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-06T00:00:00-05:00","datePublished":"2022-09-06T00:00:00-05:00","description":"My First Quiz","headline":"My First Quiz","mainEntityOfPage":{"@type":"WebPage","@id":"https://gigtieup.github.io/quinnbireley7/jupyter/2022/09/06/di.html"},"url":"https://gigtieup.github.io/quinnbireley7/jupyter/2022/09/06/di.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-06T00:00:00-05:00","datePublished":"2022-09-06T00:00:00-05:00","description":"Lists, Dictionaries, and Iterations","headline":"Lists, Dictionaries, and Iterations","mainEntityOfPage":{"@type":"WebPage","@id":"https://gigtieup.github.io/quinnbireley7/jupyter/2022/09/06/di.html"},"url":"https://gigtieup.github.io/quinnbireley7/jupyter/2022/09/06/di.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/quinnbireley7/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://gigtieup.github.io/quinnbireley7/feed.xml" title="Quinns fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/quinnbireley7/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -73,7 +73,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">My First Quiz</h1><p class="page-description">My First Quiz</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-06T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Lists, Dictionaries, and Iterations</h1><p class="page-description">Lists, Dictionaries, and Iterations</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-06T00:00:00-05:00" itemprop="datePublished">
         Sep 6, 2022
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -167,6 +167,119 @@ window.onload = wrap_img;
 <span class="p">}</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"person"</span><span class="p">,</span> <span class="n">person</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">person</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">'-person["name"]'</span><span class="p">,</span> <span class="n">person</span><span class="p">[</span><span class="s2">"name"</span><span class="p">],</span> <span class="nb">type</span><span class="p">(</span><span class="n">person</span><span class="p">[</span><span class="s2">"name"</span><span class="p">]))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">InfoDb</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Append to List a Dictionary of key/values related to a person and cars</span>
+<span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+    <span class="s2">"FirstName"</span><span class="p">:</span> <span class="s2">"Quinn"</span><span class="p">,</span>
+    <span class="s2">"LastName"</span><span class="p">:</span> <span class="s2">"Bireley"</span><span class="p">,</span>
+    <span class="s2">"DOB"</span><span class="p">:</span> <span class="s2">"July 22"</span><span class="p">,</span>
+    <span class="s2">"Residence"</span><span class="p">:</span> <span class="s2">"San Diego"</span><span class="p">,</span>
+    <span class="s2">"Email"</span><span class="p">:</span> <span class="s2">"quinnbireley@gmail.com"</span><span class="p">,</span>
+    <span class="s2">"Height"</span><span class="p">:</span> <span class="s2">"5'11"</span><span class="p">,</span>
+<span class="p">})</span>
+
+
+<span class="c1"># Print the data structure</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">print_data</span><span class="p">(</span><span class="n">d_rec</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"FirstName"</span><span class="p">],</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"LastName"</span><span class="p">])</span>  <span class="c1"># using comma puts space between values</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Residence:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"Residence"</span><span class="p">])</span> <span class="c1"># \t is a tab indent</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Birth Day:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"DOB"</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Height: 169"</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span>  <span class="c1"># end="" make sure no return occurs</span>
+
+
+
+<span class="c1"># for loop iterates on length of InfoDb</span>
+<span class="k">def</span> <span class="nf">for_loop</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"For loop output</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">InfoDb</span><span class="p">:</span>
+        <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+
+<span class="n">for_loop</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">while_loop</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"While loop output</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">):</span>
+        <span class="n">record</span> <span class="o">=</span> <span class="n">InfoDb</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span>
+
+<span class="n">while_loop</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">recursive_loop</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">):</span>
+        <span class="n">record</span> <span class="o">=</span> <span class="n">InfoDb</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+        <span class="n">recursive_loop</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span>
+    
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Recursive loop output</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">recursive_loop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
     </div>
