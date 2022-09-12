@@ -3,8 +3,8 @@ $med-emph: rgba(rgb(255, 255, 255), 0.38); //Noicee
 $low-emph: rgba(rgb(255, 255, 255), 0.38);
 $dark-grey : #102d6c; 
 // $dark-grey : #1F1B24;
-$overlay: rgb(255, 255, 255), 95%);
-$overlay-light: rgb(255, 255, 255), 86%);
+$overlay: rgba( rgb(255, 255, 255), 0.38);
+$overlay-light: rgba( rgb(255, 255, 255), 0.38);
 
 html, body, input, textarea, select, button {   
   color: $high-emph !important;
