@@ -1,9 +1,10 @@
 ---
-layout: page
-title:  Organization
-permalink: /about/
+toc: true
+layout: post
+description: 
+categories: [markdown]
+title: Organization
 ---
- Organization
 # Week 0
 - [My Jupyter Notebook](https://gigtieup.github.io/quinnbireley7/jupyter/2022/08/22/first-notebook.html)
 - [My first blog post](https://gigtieup.github.io/quinnbireley7/markdown/2022/08/22/first-post.html)
@@ -22,3 +23,4 @@ permalink: /about/
 - [Week 3/4 submition](https://gigtieup.github.io/quinnbireley7/markdown/2022/09/12/week-3-4.html)
 - [Quiz plan](https://gigtieup.github.io/quinnbireley7/markdown/2022/09/12/quiz-plan.html)
 - [Group links for week 3](https://gigtieup.github.io/quinnbireley7/markdown/2022/09/12/my-groups-links-3.html)
+
