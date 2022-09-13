@@ -141,9 +141,9 @@
   
       ,"page2": {
           "title": "Organization",
-          "content": "Organization . Week 0 . My Jupyter Notebook | My first blog post Week 1 . | My Day | My Quiz | CS Terms | Group links for week 1 Week 2 . | Notebook quiz | Lists, Dictionaries, and Iterations | Group links for week 2 | Tags | Timebox Week 3 . | Week 3/4 submition | Quiz plan | Group links for week 3 | .",
-          "url": "https://gigtieup.github.io/quinnbireley7/about/",
-          "relUrl": "/about/",
+          "content": "Week 0 . My Jupyter Notebook | My first blog post Week 1 . | My Day | My Quiz | CS Terms | Group links for week 1 Week 2 . | Notebook quiz | Lists, Dictionaries, and Iterations | Group links for week 2 | Tags | Timebox Week 3 . | Week 3/4 submition | Quiz plan | Group links for week 3 | .",
+          "url": "https://gigtieup.github.io/quinnbireley7/_pages/org.html",
+          "relUrl": "/_pages/org.html",
           "date": ""
       }
       
