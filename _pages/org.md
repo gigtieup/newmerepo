@@ -1,10 +1,9 @@
 ---
-layout: default
-permalink: /timebox/
-title: Organization
-search_exclude: true
+layout: page
+title:  Organization
+permalink: /about/
 ---
- 
+ Organization
 # Week 0
 - [My Jupyter Notebook](https://gigtieup.github.io/quinnbireley7/jupyter/2022/08/22/first-notebook.html)
 - [My first blog post](https://gigtieup.github.io/quinnbireley7/markdown/2022/08/22/first-post.html)
