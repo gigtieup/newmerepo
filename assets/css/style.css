@@ -427,7 +427,7 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-html, body, input, textarea, select, button { color: rgba(243, 243, 243, 0.38) !important; background-color: #102d6c !important; }
+html, body, input, textarea, select, button { color: rgba(243, 243, 243, 0.38) !important; background-color: #000000 !important; }
 
 a { color: white !important; }
 
@@ -435,9 +435,9 @@ a:hover { color: rgba(243, 243, 243, 0.38) !important; }
 
 .site-title, .site-title:visited, .site-nav, .page-link { color: rgba(243, 243, 243, 0.38) !important; }
 
-.site-nav { background-color: #102d6c; border-color: rgba(255, 255, 255, 0.38); }
+.site-nav { background-color: #000000; border-color: rgba(255, 255, 255, 0.38); }
 
-* { scrollbar-color: #102d6c rgba(255, 255, 255, 0.38); }
+* { scrollbar-color: #000000 rgba(255, 255, 255, 0.38); }
 
 pre, code { border-color: rgba(255, 255, 255, 0.38); background-color: rgba(255, 255, 255, 0.38); }
 
@@ -449,13 +449,13 @@ pre, code { border-color: rgba(255, 255, 255, 0.38); background-color: rgba(255,
 
 .btn { background-color: rgba(255, 255, 255, 0.38) !important; color: rgba(243, 243, 243, 0.38) !important; border-color: rgba(255, 255, 255, 0.38) !important; }
 
-.btn:hover { background-color: #102d6c !important; }
+.btn:hover { background-color: #000000 !important; }
 
 table th { background-color: rgba(255, 255, 255, 0.38); border-color: rgba(255, 255, 255, 0.38); color: rgba(243, 243, 243, 0.38); }
 
-table td { background-color: #102d6c; border-color: rgba(255, 255, 255, 0.38); color: rgba(255, 255, 255, 0.38); }
+table td { background-color: #000000; border-color: rgba(255, 255, 255, 0.38); color: rgba(255, 255, 255, 0.38); }
 
-.flash { color: #102d6c !important; filter: brightness(80%); }
+.flash { color: #000000 !important; filter: brightness(80%); }
 
 canvas { filter: invert(100%); }
 
