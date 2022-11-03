@@ -96,7 +96,7 @@ ul li {
   position: relative;
   padding: 12px 8px 12px 40px;
   list-style-type: none;
-  background: #eee;
+  background: rgb(255, 255, 255);
   font-size: 18px;
   transition: 0.2s;
   
@@ -109,7 +109,7 @@ ul li {
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
-  background: #f9f9f9;
+  background: #000000;
 }
 
 /* Darker background-color on hover */
@@ -120,7 +120,7 @@ ul li:hover {
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
   background: #888;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: line-through;
 }
 
@@ -147,13 +147,13 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
+  background-color: #000000;
   color: white;
 }
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  background-color: #000000;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -205,8 +205,8 @@ input {
 </div>
 
 <ul id="myUL">
-  <li>Hit the gym</li>
-  <li class="checked">Pay bills</li>
+  <li>Get API up and running</li>
+  <li class="checked">Check in and make sure everyone is on task</li>
   <li>Meet George</li>
   <li>Buy eggs</li>
   <li>Read a book</li>
