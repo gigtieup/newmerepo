@@ -2,17 +2,6 @@
   
     
         "post0": {
-            "title": "Unit 3.17-3.18 Group Lesson Period 4",
-            "content": "",
-            "url": "https://gigtieup.github.io/quinnbireley7/jupyter/python/2022/11/28/lesson.html",
-            "relUrl": "/jupyter/python/2022/11/28/lesson.html",
-            "date": " • Nov 28, 2022"
-        }
-        
-    
-  
-    
-        ,"post1": {
             "title": "Project plan",
             "content": "We are going to create a website that simulates a real online website that you can shop on | We want to create different products with different prices | We also want the website to have all of the basics that normal websites have | On our website we want to create a calculator, so when you add something to your cart a price will be calculated | When you check out we are going to add a 7.75% tax to the total because that is the sales tax in San Diego | We are going to have a flat price added to the total to represent the cost of shipping | .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/27/jsb.html",
@@ -23,7 +12,7 @@
     
   
     
-        ,"post2": {
+        ,"post1": {
             "title": "Week 7",
             "content": "My groups links . Quinn&#39;s Teacher-3.0 Overall-3.0 Yasha&#39;s Teacher-2.8 Overall-2.8 James&#39;s Teacher-2.7 Overall-2.7 Aaron&#39;s Teacher-2.7 Overall-2.7 .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/27/jccj.html",
@@ -34,7 +23,7 @@
     
   
     
-        ,"post3": {
+        ,"post2": {
             "title": "Java table",
             "content": "&lt;div id=&quot;javascriptTable&quot;&gt; &lt;/div&gt; &lt;script&gt; const data = [&quot;yasha&quot;,&quot;james&quot;,&quot;quinn&quot;,&quot;aaron&quot;] let table = document.createElement(&quot;table&quot;); let row = document.createElement(&quot;tr&quot;); for(let i=0; i&lt;data.length; i++){ let td=document.createElement(&quot;td&quot;); let node=document.createTextNode(data[i]); td.appendChild(node); row.appendChild(td); } table.appendChild(row); let div = document.getElementById(&quot;javascriptTable&quot;); div.appendChild(table); &lt;/script&gt; .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/25/javascript-table.html",
@@ -45,7 +34,7 @@
     
   
     
-        ,"post4": {
+        ,"post3": {
             "title": "Week 6",
             "content": "My groups links . Quinn&#39;s Teacher- 2.5 Student- 2.7 Overal- 2.6 Yasha&#39;s Teacher- 2.7 Student- 2.7 Overal- 2.7 Aaron&#39;s Teacher- 2.7 Student- 2.7 Overal- 2.7 James&#39;s Teacher- 2.7 Student- 2.7 Overal- 2.7 .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/19/links-3.html",
@@ -56,7 +45,7 @@
     
   
     
-        ,"post5": {
+        ,"post4": {
             "title": "Week 3/4 submition",
             "content": "Code.org persinal program (phone password = 1970) . HERE . Scrum Board . HERE . Quiz plan . HERE . My issue . HERE . Extra organization . HERE .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/12/week-3-4.html",
@@ -67,7 +56,7 @@
     
   
     
-        ,"post6": {
+        ,"post5": {
             "title": "Progect plan",
             "content": "My progect plan: . Create a quiz similar to the example (Just to get a feel for the program) | Brainstorm (How to make my website/ function stand out) | Create (Use what I know from building the original quiz and the brainstorm plan to create what website I had in mind) | Check/ Ask (Ask teacher and classmates if anything needs to be added or changed) | . Drafting: . For my code I used a simple repeating command “on event (“Button name”,”click”, function(){“ (what this did was basically set the command for a button to take you to a separate page) . Data Abstraction . An example of Data Abstraction in this program is the “font size” chart. It holds multiple selections that represent different sizes. A random number function takes a random size selection from the list and sets the default font size to that selection. . The point . The point of the assignment was to get comfortable with code.org but specifically java script. . Managing Complexity . An example of complexity management in this quiz is the layout. The quiz is divided into two parts: pasword and exploration in the program. This can easily be seen in the first part of the code, each command has its own defined function. .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/12/quiz-plan.html",
@@ -78,7 +67,7 @@
     
   
     
-        ,"post7": {
+        ,"post6": {
             "title": "Week 3",
             "content": "My groups links #3 . Quinn&#39;s 2.9+ Yasha&#39;s 2.8+ Aaron&#39;s 2.7+ James&#39;s 2.7+ .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/12/my-groups-links-3.html",
@@ -89,7 +78,7 @@
     
   
     
-        ,"post8": {
+        ,"post7": {
             "title": "Week 8",
             "content": "My groups links . Quinn&#39;s . Yasha&#39;s . James&#39;s . Aaron&#39;s .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/10/fjijr.html",
@@ -100,7 +89,7 @@
     
   
     
-        ,"post9": {
+        ,"post8": {
             "title": "Week 2",
             "content": "My groups links #2 . Quinn&#39;s Yasha&#39;s Aaron&#39;s James&#39;s .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/06/links-2.html",
@@ -111,7 +100,7 @@
     
   
     
-        ,"post10": {
+        ,"post9": {
             "title": "Lists, Dictionaries, and Iterations",
             "content": "# variable of type string name = &quot;Quinn&quot; print(&quot;name&quot;, name, type(name)) # variable of type integer age = 16 print(&quot;age&quot;, age, type(age)) # variable of type float Weight = 169 print(&quot;Weight&quot;, Weight, type(Weight)) # variable of type list (many values in one variable) langs = [&quot;Python&quot;, &quot;JavaScript&quot;, &quot;Java&quot;, &quot;bash&quot;] print(&quot;langs&quot;, langs, type(langs)) print(&quot;- langs[0]&quot;, langs[0], type(langs[0])) # variable of type dictionary (a group of keys and values) person = { &quot;name&quot;: name, &quot;age&quot;: age, &quot;Weight&quot;: weight, } print(&quot;person&quot;, person, type(person)) print(&#39;-person[&quot;name&quot;]&#39;, person[&quot;name&quot;], type(person[&quot;name&quot;])) . InfoDb = [] # Append to List a Dictionary of key/values related to a person and cars InfoDb.append({ &quot;FirstName&quot;: &quot;Quinn&quot;, &quot;LastName&quot;: &quot;Bireley&quot;, &quot;DOB&quot;: &quot;July 22&quot;, &quot;Residence&quot;: &quot;San Diego&quot;, &quot;Email&quot;: &quot;quinnbireley@gmail.com&quot;, &quot;Height&quot;: &quot;5&#39;11&quot;, }) # Print the data structure print(InfoDb) . def print_data(d_rec): print(d_rec[&quot;FirstName&quot;], d_rec[&quot;LastName&quot;]) # using comma puts space between values print(&quot; t&quot;, &quot;Residence:&quot;, d_rec[&quot;Residence&quot;]) # t is a tab indent print(&quot; t&quot;, &quot;Birth Day:&quot;, d_rec[&quot;DOB&quot;]) print(&quot; t&quot;, &quot;Height: 169&quot;, end=&quot;&quot;) # end=&quot;&quot; make sure no return occurs # for loop iterates on length of InfoDb def for_loop(): print(&quot;For loop output n&quot;) for record in InfoDb: print_data(record) for_loop() . def while_loop(): print(&quot;While loop output n&quot;) i = 0 while i &lt; len(InfoDb): record = InfoDb[i] print_data(record) i += 1 return while_loop() . def recursive_loop(i): if i &lt; len(InfoDb): record = InfoDb[i] print_data(record) recursive_loop(i + 1) return print(&quot;Recursive loop output n&quot;) recursive_loop(0) .",
             "url": "https://gigtieup.github.io/quinnbireley7/jupyter/2022/09/06/di.html",
@@ -122,7 +111,7 @@
     
   
     
-        ,"post11": {
+        ,"post10": {
             "title": "Week 1",
             "content": "My groups links . Quinn&#39;s Yasha&#39;s Aaron&#39;s James&#39;s .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/09/01/links.html",
@@ -133,7 +122,7 @@
     
   
     
-        ,"post12": {
+        ,"post11": {
             "title": "CS Terms.",
             "content": "Push/Pull - to send/recieve code to and from GitHub . Print - input that prints a specific method on the screen . Markdown - syntax used to format plain text . Define - defining a function or method . If statement - used for conditional execution . Front Matter - section of code that is on top of files with key-values . Variable - word used as a container to hold information . String - series of characters . Boolean - value that is either true or false .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/08/29/vocab.html",
@@ -144,7 +133,7 @@
     
   
     
-        ,"post13": {
+        ,"post12": {
             "title": "My First Quiz",
             "content": "class Question: def __init__(self, prompt, answer): self.prompt = prompt self.answer = answer question_prompts = [ &quot;Chose the correct definision for a Vector (c++) n(a) A sequential container to store elements and NOT index based n(b) A fixed-size sequential collection of elements of the same type and it is index based&quot;, &quot;Can you reverse a string in Java? nyes/ nno&quot;, &quot;Is this working? nyes/ nno&quot;, &quot;What is this letter? (y) n(y) n(p)&quot;, ] questions = [ Question(question_prompts[0], &quot;a&quot;), Question(question_prompts[1], &quot;no&quot;), Question(question_prompts[2], &quot;yes&quot;), Question(question_prompts[3], &quot;y&quot;), ] def run_quiz(questions): score = 0 for question in questions: answer = input(question.prompt) if answer == question.answer: score += 1 print(&quot;you got&quot;, score, &quot;out of&quot;, len(questions)) run_quiz(questions) #_____/ _____/ __________/ _____/ ____/ ___ # ___/ __ / ///////// _____/ ////////____/ ///////// _ / ///////// _ # __/ ///////// _ / _______ / ___/ /____________ // ______ ///__ / _______ / _ # _ / _______ / _ / /___/ _______________ //// _________ / /__ # _ / _ / /////////____ / __________________ //// ______ / /////////____ # _ / ///////// _ / _____________ // ____________________ //// ___ / _____________ # _ / _______ / _ / ______________ /// ___________/ ______ // __ / _____________ # _ / _______ / _ / ________________ //// _ /// /___ / _____________ # _ ///________ ///__ ///____________________ /////////____ ///////////_____ ///______________ .",
             "url": "https://gigtieup.github.io/quinnbireley7/jupyter/2022/08/29/my-quiz.html",
@@ -155,7 +144,7 @@
     
   
     
-        ,"post14": {
+        ,"post13": {
             "title": "My Day.",
             "content": "6:05-6:20 . Wake up &amp; Eat . 6:20-7:10 . Workout . 7:10-7:45 . Shower &amp; Eat again . 7:45-8:10 . Get ready for school . 8:10-8:15 . leave for school . 3:45-4:00 . Get home from school . 4:00-8:00 . Go to my job at B&amp;B . 8:00-8:20 . Get home &amp; Eat dinner . 8:30-12:45 . Homework . 12:45-1:00 . Shower &amp; Go to bed .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/08/29/My-Day.html",
@@ -166,7 +155,7 @@
     
   
     
-        ,"post15": {
+        ,"post14": {
             "title": "My first blog post.",
             "content": "My name is Quinn Bireley and I love to surf. .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/08/22/first-post.html",
@@ -177,7 +166,7 @@
     
   
     
-        ,"post16": {
+        ,"post15": {
             "title": "My Jupyter Notebook",
             "content": "print(&quot;hello&quot;) .",
             "url": "https://gigtieup.github.io/quinnbireley7/jupyter/2022/08/22/first-notebook.html",
@@ -188,7 +177,7 @@
     
   
     
-        ,"post17": {
+        ,"post16": {
             "title": "Notebook quiz",
             "content": "class Question: def __init__(self, prompt, answer): self.prompt = prompt self.answer = answer question_prompts = [ &quot;What is the name of the syntax that can pass variables in html? n n&quot;, &quot;What is it called for a command you give your computer? n n&quot;, &quot;Is it important to define your varibles? n n&quot;, &quot;If you do not definne your varibles what will happen when you try and run the code? n n&quot;, ] questions = [ Question(question_prompts[0], &quot;liquid&quot;), Question(question_prompts[1], &quot;input&quot;), Question(question_prompts[2], &quot;yes&quot;), Question(question_prompts[3], &quot;syntax error&quot;), ] def run_quiz(questions): score = 0 for question in questions: answer = input(question.prompt) if answer == question.answer: score += 1 print(&quot;you got&quot;, score, &quot;out of&quot;, len(questions)) run_quiz(questions) . you go 4 out of 4 .",
             "url": "https://gigtieup.github.io/quinnbireley7/jupyter/2022/06/09/notebook-quiz.html",
