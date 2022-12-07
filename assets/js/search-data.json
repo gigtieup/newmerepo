@@ -2,6 +2,39 @@
   
     
         "post0": {
+            "title": "Hacks / Notes 1 & 2",
+            "content": "3.1.1 . Blog: . Strings is a series of characters (numbers, letters, etc), one example of a string is your name or your id because strings can contain both numbers and letters. Lists are sequences of elements with each element being a variable. An example of a list can be the names of the students in this classroom. Assign variable that coorelates to the function so less errors are made 3 different data types that support different data * integer (numbers) * string (or text/letters) * Boolean (True/False statements) . Questions: . What exactly IS a variable? . A variable is an abstraction inside a program that holds a value, where each variable has associated data storage that represents a single value at a time . | What is the best data type to represent someone&#39;s dog&#39;s name? . String . | Why is it important to give variables specific names before containing values? . So you don&#39;t get them mixed up . | What is the best way to represent someone&#39;s phone number? . String . Bonus (Not required but important to know): . | How can we update a variable&#39;s value . (blank) = updated version . | What function is used to recieve a user&#39;s input? . Input . | | . Hacks: Assignment Operater: The operator used to assign a new value to a variable, property, event or indexer element. Example: X = 5 Collegeboard uses arrow symbols to assign a value to a variable. A variable, x, is initially given a value of 15. Later on, the value for x is changed to 22. If you print x, would the command display 15 or 22? The variable would display 22. . x = 22 x = 15 display(x) . 3.1.2 . Questions: . What is a list? . Lists are sequences of elements with each element being a variable. An example of a list can be the names of the students in this classroom. . | What is an element . A fragment of computer code (can be any piece of computer readable text) . | What is an easy way to reference the elements in a list or string? . | . WorldCup = [&quot;argentina&quot;, &quot;portugal&quot;, &quot;france&quot;, &quot;spain&quot;] print(WorldCup) . What is an example of a string? | . print(&quot;Hello Universe&quot;) . Hacks . Create a list with indices | Index a part of the list that you created. | Try to index from the end | . 3.2.1 . Hacks . The following code is incomplete. Its intended purpose is to increase three numbers, all of which ask for user input, by an amount specified the user. The input code is abstracted, but the actual logic isn&#39;t connected to the abstraction. | . num1=input(&quot;Input a number. &quot;) num2=input(&quot;Input a number. &quot;) num3=input(&quot;Input a number. &quot;) add=input(&quot;How much would you like to add? &quot;) # Add code in the space below numlist = [int(num1), int(num2), int(num3)] # The following is the code that adds the inputted addend to the other numbers. It is hidden from the user. for i in range(len(numlist)): numlist[i -1] += int(add) print(numlist) . 3.2.2 . Hacks . Food = [&quot;pizza&quot;, &quot;hot dog&quot;, &quot;sushi&quot;, &quot;strawberry&quot;, &quot;sandwich&quot;] display(Food) . Why are using lists better for a program, rather than writing out each line of code? . It&#39;s more efficent because rather than imputing data one by one you can do it way faster using lists. . | Make your own list the &quot;long and slow way&quot; then manage the complexity of the list . | . country1 = &quot;Iran&quot; country2 = &quot;Switzerland&quot; country3 = &quot;Japan&quot; country4 = &quot;Ghana&quot; # Inputing values one by one print(country1, country2, country3, country4) .",
+            "url": "https://gigtieup.github.io/quinnbireley7/collegeboard/2022/12/07/thing.html",
+            "relUrl": "/collegeboard/2022/12/07/thing.html",
+            "date": " • Dec 7, 2022"
+        }
+        
+    
+  
+    
+        ,"post1": {
+            "title": "Hacks / Notes 5 & 7",
+            "content": "isRaining = False result = not(isRaining) print(result) . true . grade = 75 # Has to be between 70 and 100 if grade &gt; 70 and grade &lt;= 100: print(&quot;You passed the quiz&quot;) . You passed the quiz . Logical Operator . A logical operator is a symbol or word used to connect two or more expressions Selection | The specific block of code that will execute depending on the algorithm condition returning true or false. Algorithm | A specific task that is completed with the use of instructions Conditional Statement / If-Statement: | A statement that affects the sequence of control by executing certain statements depending on the value of a boolean (true or false). | . SoccerMinutesPlayed = 48 if SoccerMinutesPlayed &gt; 40: print(&quot;you played over half the soccer game, congradulations!&quot;) else: print(&quot;You need to train more&quot;) # Adding another variation to the hack . True You passed the quiz you played over half the soccer game, congradulations! . import random a_list = [27, 32, 96,] random.shuffle(a_list) a_list[0] if a_list == 27: print(result) else: print(&#39;your number is not 27&#39;) # If statement . your number is not 27 . import random a=random.randint(1,100) print(a) . 44 .",
+            "url": "https://gigtieup.github.io/quinnbireley7/collegeboard/2022/12/07/oth.html",
+            "relUrl": "/collegeboard/2022/12/07/oth.html",
+            "date": " • Dec 7, 2022"
+        }
+        
+    
+  
+    
+        ,"post2": {
+            "title": "Hacks / Notes 3 & 4",
+            "content": "What is an algorithms? . An algorithm is a finite set of instruction that accomplish a task, it can be expressed by natural language, diagrams, and various other ways. | . What are the three parts of an algorithm? . Sequencing, selection, and iteration. . | Every algorithm can be created by a mixture of sequencing, selection, and iteration . | . Sequence? . A sequence is the order of how to do something to achieve a result, similarly to how you follow the instructions from a teacher. | . Selection? . A selection allows an algorithm to make a decision based on if a condition is met, an example of this is when your car is out of fuel, you go to the gas station to fill your car, but if your car is full you wouldn&#39;t go to the gas station. | . Iteration? . An iteration is a loop and doing something again until a condition is met, like you put away your computer when you are finished with your work. | . What is a Substring? . A substring is part of an existing string | . Personal Notes &amp; Topics to Study . Conditions within Iterations | Sequencing | Usage of SubStrings EX: print(string[5:10]) | . num1 = 5 num2 = num1 * 3 num3 = num2 / num1 * (9 % 2) * 4 result = (num3 % num1 + num2) % num3 * 3 / 5 print(result) . You will describe the different parts of an algorithm, sequencing, selection, and iteration in the image below. | . sequencing: 1, 2 | Selection: 3, 5 | Iteration: 4 | . CrossWord Puzzle Hack . Recursive | Selection | Sequence |",
+            "url": "https://gigtieup.github.io/quinnbireley7/2022/12/07/gogigi.html",
+            "relUrl": "/2022/12/07/gogigi.html",
+            "date": " • Dec 7, 2022"
+        }
+        
+    
+  
+    
+        ,"post3": {
             "title": "Unit 3 Sections 8 and 10",
             "content": "Iteration . repeating portion of an algorithm, repeats a specified number of times or until a given condition is met | . import random i = 10 while (i &lt; 100): print(&#39;you are less than 100 years old&#39;) i = i + 30 if (i &gt; 100): break . nums = [44, 55, 33, 66, 77, 88, 99, 100] for n in nums: if n % 2 == 0: print(&#39;This did not affect you at all&#39;) . This did not affect you at all This did not affect you at all This did not affect you at all This did not affect you at all . Iteration Statement . Iteration statements cause statements to be executed zero or more times, subject to some loop-termination criteria | . for i in range(100,105): i = i + 98 print(i) else: print(&#39;this is how you count from 198 to 202&#39;) . you are less than 100 years old you are less than 100 years old you are less than 100 years old This did not affect you at all This did not affect you at all This did not affect you at all This did not affect you at all 198 199 200 201 202 this is how you count from 198 to 202 . a = [3,16,29,42,55,68,81] c = 2 while (c) &gt; 1: c +=1 print(a); c == 3 break . [3, 16, 29, 42, 55, 68, 81] . nums = [&quot;30&quot;, &quot;40&quot;, &quot;50&quot;, &quot;15&quot;, &quot;20&quot;, &quot;433&quot;] minimum = min(nums) print(minimum, &quot;This is the lowest number&quot;) # Part 2 low = (nums[0]) for i in range(len(nums)): if (nums[i]) &lt; low: low = nums[i] print(&quot;the lowest number in nums is:&quot;, low) . 15 This is the lowest number the lowest number in nums is: 15 .",
             "url": "https://gigtieup.github.io/quinnbireley7/lesson%20plans/2022/12/06/tyo.html",
@@ -12,19 +45,8 @@
     
   
     
-        ,"post1": {
-            "title": "Lesson Notes - 5 - 7",
-            "content": "isRaining = False result = not(isRaining) print(result) . true . grade = 75 # Has to be between 70 and 100 if grade &gt; 70 and grade &lt;= 100: print(&quot;You passed the quiz&quot;) . You passed the quiz . Logical Operator . A logical operator is a symbol or word used to connect two or more expressions Selection | The specific block of code that will execute depending on the algorithm condition returning true or false. Algorithm | A specific task that is completed with the use of instructions Conditional Statement / If-Statement: | A statement that affects the sequence of control by executing certain statements depending on the value of a boolean (true or false). | . SoccerMinutesPlayed = 48 if SoccerMinutesPlayed &gt; 40: print(&quot;you played over half the soccer game, congradulations!&quot;) else: print(&quot;You need to train more&quot;) # Adding another variation to the hack . True You passed the quiz you played over half the soccer game, congradulations! . import random a_list = [27, 32, 96,] random.shuffle(a_list) a_list[0] if a_list == 27: print(result) else: print(&#39;your number is not 27&#39;) # If statement . your number is not 27 . import random a=random.randint(1,100) print(a) . 44 .",
-            "url": "https://gigtieup.github.io/quinnbireley7/collegeboard/2022/12/06/oth.html",
-            "relUrl": "/collegeboard/2022/12/06/oth.html",
-            "date": " • Dec 6, 2022"
-        }
-        
-    
-  
-    
-        ,"post2": {
-            "title": "3.9 and 3.11 Hacks",
+        ,"post4": {
+            "title": "Hacks / Notes 9 & 11",
             "content": "Unit 3.9.1 Hacks . 1) It is important to know that algorithms can have different results even though they look the same because it is good to know different ways to accomplish the same thing. This can help visualized the steps and process to make the coding process more efficient. . In addition algorithms having different outputs but similar code is important to know when trouble shooting code in order to find out what is wrong. . isTeams = False isScore = True if isTeams == True: print(&quot;You didn&#39;t win the game yet!&quot;) else: if isScore == True: print(&quot;You won!&quot;) else: print(&quot;You didn&#39;t win the game yet!&quot;) . You won! . isTeams = False isScore = True winGame = not(isTeams) and isScore if winGame == False: print(&quot;You didn&#39;t win the game yet!&quot;) if winGame == True: print(&quot;You won the game!&quot;) . You won the game! . 3.9.2 Hacks . Flow chart: natural lan . So if it is raining, and the temp is less then 45 degrees, then you should wear multiple layers, but if it isn&#39;t then, you can wear what ever u want. Although if it isn&#39;t raining, then it asks . isRaining = True temp = 70 if isRaining == True and temp &lt; 45: print(&quot;Wear multiple layers.&quot;) else: if temp &gt; 45: print(&quot;Wear whatever u want&quot;) else: if isRaining == False: bro = input(&quot;is it sunny or snowing?&quot;) else: print(&quot;what is the weather like?&quot;) . Wear whatever u want . 3.9.3 Hacks . import random #sets variables for the game num_guesses = 0 user_guess = 0 upper_bound = 100 lower_bound = 0 #generates a random number number = random.randint(1,100) # print(number) #for testing purposes print(f&quot;I&#39;m thinking of a number between 1 and 100.&quot;) #Write a function that gets a guess from the user using input() def guess(): return #add something here #Change the print statements to give feedback on whether the player guessed too high or too low def search(number, guess): global lower_bound, upper_bound if guess &lt; number: print(&quot;You are bad at guessing&quot;) #change this lower_bound = guess elif guess &gt; number: print(&quot;You suck :(&quot;) #change this upper_bound = guess return lower_bound, upper_bound while user_guess != number: user_guess = guess() num_guesses += 1 print(f&quot;You guessed {user_guess}.&quot;) lower_bound, upper_bound = search(number, user_guess) print(f&quot;Guess a number between {lower_bound} and {upper_bound}.&quot;) print(f&quot;You guessed the number in {num_guesses} guesses!&quot;) . I&#39;m thinking of a number between 1 and 100. You guessed None. . num = random.randint(0, 100) #print(num) var = False while var == False: put = input(&quot;I am thinking of a number from between 1-100.&quot;) print(put) if num &lt; int(put): print(&quot;Guess a lower number&quot;) if int(put) &lt; num: print(&quot;Guess a higher number&quot;) if num == int(put): print(&quot;Good Job, You guessed the right number!&quot;) var = True . 50 Guess a higher number 60 Guess a higher number 70 Guess a higher number 80 Guess a higher number 90 Guess a lower number 90 Guess a lower number 85 Guess a lower number 83 Guess a higher number 84 Good Job, You guessed the right number! . 3.11 Hacks . index = [12, 14, 43, 57, 79, 80, 99] mid = int(len(index) / 2) print(mid) print(index[mid]) . 3 57 . index = [92, 43, 74, 66, 30, 12, 1] mid = int(len(index) / 2) print(mid) print(index[mid]) . 3 66 . index = [7, 13, 96, 111, 33, 84, 60] mid = int(len(index) / 2) print(mid) print(index[mid]) . 3 111 .",
             "url": "https://gigtieup.github.io/quinnbireley7/2022/12/06/again.html",
             "relUrl": "/2022/12/06/again.html",
@@ -34,33 +56,11 @@
     
   
     
-        ,"post3": {
-            "title": "Lesson Notes - 3.1 - 3.2",
-            "content": "3.1.1 . Blog: . Strings is a series of characters (numbers, letters, etc), one example of a string is your name or your id because strings can contain both numbers and letters. Lists are sequences of elements with each element being a variable. An example of a list can be the names of the students in this classroom. Assign variable that coorelates to the function so less errors are made 3 different data types that support different data * integer (numbers) * string (or text/letters) * Boolean (True/False statements) . Questions: . What exactly IS a variable? . A variable is an abstraction inside a program that holds a value, where each variable has associated data storage that represents a single value at a time . | What is the best data type to represent someone&#39;s dog&#39;s name? . String . | Why is it important to give variables specific names before containing values? . So you don&#39;t get them mixed up . | What is the best way to represent someone&#39;s phone number? . String . Bonus (Not required but important to know): . | How can we update a variable&#39;s value . (blank) = updated version . | What function is used to recieve a user&#39;s input? . Input . | | . Hacks: Assignment Operater: The operator used to assign a new value to a variable, property, event or indexer element. Example: X = 5 Collegeboard uses arrow symbols to assign a value to a variable. A variable, x, is initially given a value of 15. Later on, the value for x is changed to 22. If you print x, would the command display 15 or 22? The variable would display 22. . x = 22 x = 15 display(x) . 3.1.2 . Questions: . What is a list? . Lists are sequences of elements with each element being a variable. An example of a list can be the names of the students in this classroom. . | What is an element . A fragment of computer code (can be any piece of computer readable text) . | What is an easy way to reference the elements in a list or string? . | . WorldCup = [&quot;argentina&quot;, &quot;portugal&quot;, &quot;france&quot;, &quot;spain&quot;] print(WorldCup) . What is an example of a string? | . print(&quot;Hello Universe&quot;) . Hacks . Create a list with indices | Index a part of the list that you created. | Try to index from the end | . 3.2.1 . Hacks . The following code is incomplete. Its intended purpose is to increase three numbers, all of which ask for user input, by an amount specified the user. The input code is abstracted, but the actual logic isn&#39;t connected to the abstraction. | . num1=input(&quot;Input a number. &quot;) num2=input(&quot;Input a number. &quot;) num3=input(&quot;Input a number. &quot;) add=input(&quot;How much would you like to add? &quot;) # Add code in the space below numlist = [int(num1), int(num2), int(num3)] # The following is the code that adds the inputted addend to the other numbers. It is hidden from the user. for i in range(len(numlist)): numlist[i -1] += int(add) print(numlist) . 3.2.2 . Hacks . Food = [&quot;pizza&quot;, &quot;hot dog&quot;, &quot;sushi&quot;, &quot;strawberry&quot;, &quot;sandwich&quot;] display(Food) . Why are using lists better for a program, rather than writing out each line of code? . It&#39;s more efficent because rather than imputing data one by one you can do it way faster using lists. . | Make your own list the &quot;long and slow way&quot; then manage the complexity of the list . | . country1 = &quot;Iran&quot; country2 = &quot;Switzerland&quot; country3 = &quot;Japan&quot; country4 = &quot;Ghana&quot; # Inputing values one by one print(country1, country2, country3, country4) .",
-            "url": "https://gigtieup.github.io/quinnbireley7/collegeboard/2022/12/02/thing.html",
-            "relUrl": "/collegeboard/2022/12/02/thing.html",
-            "date": " • Dec 2, 2022"
-        }
-        
-    
-  
-    
-        ,"post4": {
+        ,"post5": {
             "title": "Week 14",
             "content": "Notes - 3.1 - 3.2 . Unit 3.17-3.18 Group Lesson Period 4 .",
             "url": "https://gigtieup.github.io/quinnbireley7/markdown/2022/12/02/jjfj.html",
             "relUrl": "/markdown/2022/12/02/jjfj.html",
-            "date": " • Dec 2, 2022"
-        }
-        
-    
-  
-    
-        ,"post5": {
-            "title": "Lesson Notes on 3.3 and 3.4",
-            "content": "num1 = 5 num2 = num1 * 3 num3 = num2 / num1 * (9 % 2) * 4 result = (num3 % num1 + num2) % num3 * 3 / 5 print(result) . You will describe the different parts of an algorithm, sequencing, selection, and iteration in the image below. | . sequencing: 1, 2 | Selection: 3, 5 | Iteration: 4 | . CrossWord Puzzle Hack . Recursive | Selection | Sequence |",
-            "url": "https://gigtieup.github.io/quinnbireley7/2022/12/02/gogigi.html",
-            "relUrl": "/2022/12/02/gogigi.html",
             "date": " • Dec 2, 2022"
         }
         
