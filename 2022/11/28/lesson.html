@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      5 min read
     
 </span></p>
 
@@ -117,6 +117,8 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h3"><a href="#Key-vocab">Key vocab </a></li>
+<li class="toc-entry toc-h2"><a href="#Additional-information">Additional information </a></li>
 <li class="toc-entry toc-h1"><a href="#Unit-3,-Section-17:-Algorithm-Efficiency---Kush">Unit 3, Section 17: Algorithm Efficiency - Kush </a>
 <ul>
 <li class="toc-entry toc-h2"><a href="#What-is-Algorithm-Efficiency?">What is Algorithm Efficiency? </a></li>
@@ -141,6 +143,17 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Key-vocab">
+<a class="anchor" href="#Key-vocab" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key vocab<a class="anchor-link" href="#Key-vocab"> </a>
+</h3>
+<p>Hailstone numbers</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -213,6 +226,22 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Additional-information">
+<a class="anchor" href="#Additional-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Additional information<a class="anchor-link" href="#Additional-information"> </a>
+</h2>
+<p>A problem posed by L. Collatz in 1937, also called the 3x+1 mapping, 3n+1 problem, Hasse's algorithm, Kakutani's problem, Syracuse algorithm, Syracuse problem, Thwaites conjecture, and Ulam's problem (Lagarias 1985). Thwaites (1996) has offered a £1000 reward for resolving the conjecture. Let a_0 be an integer. Then one form of Collatz problem asks if iterating</p>
+<p>always returns to 1 for positive a_0. (If negative numbers are included, there are four known cycles (excluding the trivial 0 cycle): (4, 2, 1), (-2, -1), (-5, -14, -7, -20, -10), and (-17, -50, -25, -74, -37, -110, -55, -164, -82, -41, -122, -61, -182, -91, -272, -136, -68, -34).)</p>
+<p>The members of the sequence produced by the Collatz are sometimes known as hailstone numbers. Conway proved that the original Collatz problem has no nontrivial cycles of length &lt;400. Lagarias (1985) showed that there are no nontrivial cycles with length &lt;275000. Conway (1972) also proved that Collatz-type problems can be formally undecidable. Kurtz and Simon (2007) proved that a natural generalization of the Collatz problem is undecidable; unfortunately, this proof cannot be applied to the original Collatz problem.</p>
+<p>The Collatz algorithm has been tested and found to always reach 1 for all numbers &lt;=19·2^(58) approx 5.48×10^(18) (Oliveira e Silva 2008), improving the earlier results of 10^(15) (Vardi 1991, p. 129) and 5.6×10^(13) (Leavens and Vermeulen 1992). Because of the difficulty in solving this problem, Erdős commented that "mathematics is not yet ready for such problems" (Lagarias 1985).</p>
+<p>The numbers of steps required for the algorithm to reach 1 for a_0=1, 2, ... are 0, 1, 7, 2, 5, 8, 16, 3, 19, 6, 14, 9, 9, 17, 17, 4, 12, 20, 20, 7, ... (OEIS A006577; illustrated above). Of these, the numbers of tripling steps are 0, 0, 2, 0, 1, 2, 5, 0, 6, ... (OEIS A006667), and the number of halving steps are 0, 1, 5, 2, 4, 6, 11, 3, 13, ... (OEIS A006666). The smallest starting values of a_0 that yields a Collatz sequence containing n=1, 2, ... are 1, 2, 3, 3, 3, 6, 7, 3, 9, 3, 7, 12, 7, 9, 15, 3, 7, 18, 19, ... (OEIS A070167).</p>
+<p>The Collatz problem can be implemented as an 8-register machine (Wolfram 2002, p. 100), quasi-cellular automaton (Cloney et al. 1987, Bruschi 2005), or 6-color one-dimensional quasi-cellular automaton with local rules but which wraps first and last digits around (Zeleny). In general, the difficulty in constructing true local-rule cellular automata arises from the necessity of a carry operation when multiplying by 3 which, in the worst case, can extend the entire length of the base-b representation of digits (and thus require propagating information at faster than the CA's speed of light).</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
