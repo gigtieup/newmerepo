@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      8 min read
     
 </span></p>
 
@@ -300,6 +300,84 @@ The action or a process of iterating or repeating:such as. : a procedure in whic
 <a class="anchor" href="#What-is-Algorithm-Efficiency?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Algorithm Efficiency?<a class="anchor-link" href="#What-is-Algorithm-Efficiency?"> </a>
 </h2>
 <p>Algorithmic efficiency is an aspect of algorithmic programming that measures the number of steps needed to solve a problem. For instance, If I wanted to create a sorting algorithm that sorts numbers the numbers [2,4,5,1,3]from least to greatest, rather than having an algorithm that compares itself to the next number and swaps accordingly it would be more efficient if you had a program that scans through all the numbers and checks whether a number is smaller or bigger than the rest than and sorts accordingly. Both of the algorithms had the same objective, but one runs more efficiently than the other.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">inefficient_sort</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span>
+ <span class="c1"># loop over the numbers</span>
+ <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+   <span class="c1"># find the minimum number in the unsorted part of the list</span>
+   <span class="n">min_index</span> <span class="o">=</span> <span class="n">i</span>
+   <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+     <span class="k">if</span> <span class="n">numbers</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_index</span><span class="p">]:</span>
+       <span class="n">min_index</span> <span class="o">=</span> <span class="n">j</span>
+   <span class="c1"># swap the minimum number with the first unsorted number</span>
+   <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_index</span><span class="p">]</span> <span class="o">=</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_index</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+ <span class="c1"># return the sorted list</span>
+ <span class="k">return</span> <span class="n">numbers</span>
+ 
+<span class="c1"># test the algorithm</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">inefficient_sort</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">]))</span>  <span class="c1"># should print [1, 2, 3, 4, 5]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This algorithm uses a nested loop to find the minimum number in the unsorted part of the list and then swaps it with the first unsorted number. This is an inefficient way to sort a list.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">efficient_sort</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span>
+ <span class="c1"># loop over the numbers</span>
+ <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+   <span class="c1"># find the minimum number in the unsorted part of the list</span>
+   <span class="n">min_index</span> <span class="o">=</span> <span class="n">i</span>
+   <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+     <span class="k">if</span> <span class="n">numbers</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_index</span><span class="p">]:</span>
+       <span class="n">min_index</span> <span class="o">=</span> <span class="n">j</span>
+   <span class="c1"># swap the minimum number with the first unsorted number</span>
+   <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_index</span><span class="p">]</span> <span class="o">=</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_index</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+ <span class="c1"># return the sorted list</span>
+ <span class="k">return</span> <span class="n">numbers</span>
+ 
+<span class="c1"># test the algorithm</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">efficient_sort</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">]))</span>  <span class="c1"># should print [1, 2, 3, 4, 5]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The difference in this algorithm is that it uses a nested loop to find the minimum number in the unsorted part of the list and then swaps it with the first unsorted number.</p>
 
 </div>
 </div>
