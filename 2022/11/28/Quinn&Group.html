@@ -300,22 +300,90 @@ The action or a process of iterating or repeating:such as. : a procedure in whic
 <a class="anchor" href="#What-is-Algorithm-Efficiency?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Algorithm Efficiency?<a class="anchor-link" href="#What-is-Algorithm-Efficiency?"> </a>
 </h2>
 <p>Algorithmic efficiency is an aspect of algorithmic programming that measures the number of steps needed to solve a problem. For instance, If I wanted to create a sorting algorithm that sorts numbers the numbers [2,4,5,1,3]from least to greatest, rather than having an algorithm that compares itself to the next number and swaps accordingly it would be more efficient if you had a program that scans through all the numbers and checks whether a number is smaller or bigger than the rest than and sorts accordingly. Both of the algorithms had the same objective, but one runs more efficiently than the other.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="How-do-we-know-if-an-algorithm-is-efficient-or-not?">
 <a class="anchor" href="#How-do-we-know-if-an-algorithm-is-efficient-or-not?" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do we know if an algorithm is efficient or not?<a class="anchor-link" href="#How-do-we-know-if-an-algorithm-is-efficient-or-not?"> </a>
 </h2>
 <p>In the last section, we were talking about a sorting algorithm and we discussed two ways that we could sort the numbers in the order from least to greatest. The reason the second one ran faster than the first one is because scanning all of them is quicker than scanning one by one. An algorithm’s efficiency is determined through formal or mathematical reasoning. My reasoning was more formal than mathematical.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="How-can-you-use-algorithms-to-better-your-life:-Mini-activity">
 <a class="anchor" href="#How-can-you-use-algorithms-to-better-your-life:-Mini-activity" aria-hidden="true"><span class="octicon octicon-link"></span></a>How can you use algorithms to better your life: Mini activity<a class="anchor-link" href="#How-can-you-use-algorithms-to-better-your-life:-Mini-activity"> </a>
 </h2>
 <p>Just for a second, think about all the tasks in your life that would work so much better automated. The sky's the limit. For an activity, write down or take a mental note of a task that you encounter in your day to day life, and think of ways where you can automate that task. An example of this would be me creating an algorithm for my morning routine.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">tasks</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"wake up"</span><span class="p">,</span> <span class="s2">"eat breakfast"</span><span class="p">,</span> <span class="s2">"brush teeth"</span><span class="p">,</span> <span class="s2">"go to school"</span><span class="p">]</span>
+ 
+<span class="k">def</span> <span class="nf">complete_tasks</span><span class="p">(</span><span class="n">tasks</span><span class="p">):</span>
+ <span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="n">tasks</span><span class="p">:</span>
+<span class="c1"># code to complete each task goes here</span>
+ 
+   <span class="k">if</span> <span class="n">task</span> <span class="o">==</span> <span class="s2">"wake up"</span><span class="p">:</span>
+     <span class="nb">print</span><span class="p">(</span><span class="s2">"Waking up now!"</span><span class="p">)</span>
+   <span class="k">elif</span> <span class="n">task</span> <span class="o">==</span> <span class="s2">"eat breakfast"</span><span class="p">:</span>
+     <span class="nb">print</span><span class="p">(</span><span class="s2">"Eating breakfast now!"</span><span class="p">)</span>
+   <span class="k">elif</span> <span class="n">task</span> <span class="o">==</span> <span class="s2">"go to school"</span><span class="p">:</span>
+       <span class="nb">print</span><span class="p">(</span><span class="s2">"Going to school now!"</span><span class="p">)</span>
+ 
+<span class="c1"># and so on for each task in the list</span>
+ 
+<span class="c1"># call the function to complete the tasks</span>
+<span class="n">complete_tasks</span><span class="p">(</span><span class="n">tasks</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Taking-a-heuristic-approach-to-problems-P1">
 <a class="anchor" href="#Taking-a-heuristic-approach-to-problems-P1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Taking a heuristic approach to problems P1<a class="anchor-link" href="#Taking-a-heuristic-approach-to-problems-P1"> </a>
 </h2>
 <p>Sometimes when a problem has too many possibilities, a heuristic approach would be taken. let's use planes as an example. Imagine you were a musician on tour. You have shows in New Zealand, United States, Canada, and Russia. Well, what would be the shortest flight route so you can arrive at those destinations as fast as possible? You start in the United States.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Taking-a-heuristic-approach-to-problems-P2">
 <a class="anchor" href="#Taking-a-heuristic-approach-to-problems-P2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Taking a heuristic approach to problems P2<a class="anchor-link" href="#Taking-a-heuristic-approach-to-problems-P2"> </a>
 </h2>
 <p>Well, since there are multiple possibilities, I chose to pick the countries closest to each other. The reason I chose this algorithm in particular is that it made the most sense. I had to start at United States, but then I went on to Canada, Russia, New Zealand, and then back to the United States.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Hacks/assignment">
 <a class="anchor" href="#Hacks/assignment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hacks/assignment<a class="anchor-link" href="#Hacks/assignment"> </a>
 </h2>
