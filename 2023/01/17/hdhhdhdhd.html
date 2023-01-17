@@ -138,31 +138,24 @@ window.onload = wrap_img;
 <a class="anchor" href="#Class-and-Object-Terms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class and Object Terms<a class="anchor-link" href="#Class-and-Object-Terms"> </a>
 </h2>
 <blockquote>
-<p>The foundations of Object-Oriented Programming is defining a <strong><em>Class</em></strong></p>
-<ul>
-<li>In Object-Oriented Programming (OOP), a class is a blueprint for creating an <strong><em>Object</em></strong>. (a data structure).  An Object is used like many other Python variables.</li>
-<li>A Class has ...<ul>
-<li>a collection of data, these are called <strong><em>Attributes</em></strong> and in Python are pre-fixed using the keyword <strong><em>self</em></strong>
-</li>
-<li>a collection of Functions/Procedures.  These are called <strong>*Methods</strong> when they exist inside a Class definition.</li>
-</ul>
-</li>
-<li>An Object is created from the Class/Template.  Characteristics of objects ...<ul>
-<li>an Object is an <strong><em>Instance</em></strong> of the Class/Template</li>
-<li>there can be many Objects created from the same Class</li>
-<li>each Object contains its own <strong><em>Instance Data</em></strong>
-</li>
-<li>the data is setup by the <strong><em>Constructor</em></strong>, this is the "<strong>init</strong>" method in a Python class</li>
-<li>all methods in the Class/Template become part of the Object, methods are accessed using <strong><em>dot notation</em></strong> (object.method())</li>
-</ul>
-</li>
-<li>A Python Class allow for the definition of @ decorators, these allow access to instance data without the use of functions ...<ul>
-<li>@property decorator (aka getter).  This enables developers to reference/get instance data in a shorthand fashion (object.name versus object.get_name())</li>
-<li>@name.setter decorator (aka setter).  This enables developers to update/set instance data in a shorthand fashion (object.name = "John" versus object.set_name("John"))</li>
-<li>observe all instance data (self._name, self.<em>email ...) are prefixed with "</em>", this convention allows setters and getters to work with more natural variable name (name, email ...)</li>
-</ul>
-</li>
-</ul>
+<p>The foundations of Object-Oriented Programming is defining a <strong><em>Class</em></strong><br>
+ In Object-Oriented Programming (OOP), a class is a blueprint for creating an <strong><em>Object</em></strong>. (a data structure).  An Object is used like many other Python variables.
+ A Class has ...</p>
+
+<pre><code>* a collection of data, these are called ***Attributes*** and in Python are pre-fixed using the keyword ***self***
+* a collection of Functions/Procedures.  These are called ***Methods** when they exist inside a Class definition.
+</code></pre>
+<p>An Object is created from the Class/Template.  Characteristics of objects ...
+    an Object is an <strong><em>Instance</em></strong> of the Class/Template
+    there can be many Objects created from the same Class
+    each Object contains its own <strong><em>Instance Data</em></strong>
+    the data is setup by the <strong><em>Constructor</em></strong>, this is the "<strong>init</strong>" method in a Python class
+    all methods in the Class/Template become part of the Object, methods are accessed using <strong><em>dot notation</em></strong> (object.method())
+ A Python Class allow for the definition of @ decorators, these allow access to instance data without the use of functions ...</p>
+
+<pre><code>* @property decorator (aka getter).  This enables developers to reference/get instance data in a shorthand fashion (object.name versus object.get_name())
+* @name.setter decorator (aka setter).  This enables developers to update/set instance data in a shorthand fashion (object.name = "John" versus object.set_name("John"))
+* observe all instance data (self._name, self._email ...) are prefixed with "_", this convention allows setters and getters to work with more natural variable name (name, email ...)</code></pre>
 </blockquote>
 
 </div>
