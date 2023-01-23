@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Model and API Stocks.py | Quinns fastpages</title>
+<title>Model stocks.py | Quinns fastpages</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Model and API Stocks.py" />
+<meta property="og:title" content="Model stocks.py" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Blog &amp; code on model and API stocks.py" />
 <meta property="og:description" content="Blog &amp; code on model and API stocks.py" />
@@ -16,9 +16,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-01-23T00:00:00-06:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Model and API Stocks.py" />
+<meta property="twitter:title" content="Model stocks.py" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-23T00:00:00-06:00","datePublished":"2023-01-23T00:00:00-06:00","description":"Blog &amp; code on model and API stocks.py","headline":"Model and API Stocks.py","mainEntityOfPage":{"@type":"WebPage","@id":"https://gigtieup.github.io/quinnbireley7/markdown/2023/01/23/jdjdjjd.html"},"url":"https://gigtieup.github.io/quinnbireley7/markdown/2023/01/23/jdjdjjd.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-23T00:00:00-06:00","datePublished":"2023-01-23T00:00:00-06:00","description":"Blog &amp; code on model and API stocks.py","headline":"Model stocks.py","mainEntityOfPage":{"@type":"WebPage","@id":"https://gigtieup.github.io/quinnbireley7/markdown/2023/01/23/jdjdjjd.html"},"url":"https://gigtieup.github.io/quinnbireley7/markdown/2023/01/23/jdjdjjd.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/quinnbireley7/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://gigtieup.github.io/quinnbireley7/feed.xml" title="Quinns fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/quinnbireley7/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -73,13 +73,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Model and API Stocks.py</h1><p class="page-description">Blog & code on model and API stocks.py</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-01-23T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Model stocks.py</h1><p class="page-description">Blog & code on model and API stocks.py</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-01-23T00:00:00-06:00" itemprop="datePublished">
         Jan 23, 2023
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      2 min read
     
 </span></p>
 
@@ -276,86 +276,6 @@ window.onload = wrap_img;
             <span class="sd">'''fails with bad or duplicate data'''</span>
             <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span>
             <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Records exist, duplicate email, or error: </span><span class="si">{</span><span class="n">stock</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>API stocks.py</p>
-
-</div>
-</div>
-</div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Blueprint</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">jsonify</span>
-<span class="kn">from</span> <span class="nn">flask_restful</span> <span class="kn">import</span> <span class="n">Api</span><span class="p">,</span> <span class="n">Resource</span> <span class="c1"># used for REST API building</span>
-<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
-
-<span class="kn">from</span> <span class="nn">model.stocks</span> <span class="kn">import</span> <span class="n">Stock</span>
-
-<span class="n">stock_api</span> <span class="o">=</span> <span class="n">Blueprint</span><span class="p">(</span><span class="s1">'stock_api'</span><span class="p">,</span> <span class="vm">__name__</span><span class="p">,</span>
-                   <span class="n">url_prefix</span><span class="o">=</span><span class="s1">'/api/stocks'</span><span class="p">)</span>
-
-<span class="c1"># API docs https://flask-restful.readthedocs.io/en/latest/api.html</span>
-<span class="n">api</span> <span class="o">=</span> <span class="n">Api</span><span class="p">(</span><span class="n">stock_api</span><span class="p">)</span>
-
-<span class="k">class</span> <span class="nc">StockAPI</span><span class="p">:</span>        
-    <span class="k">class</span> <span class="nc">_Create</span><span class="p">(</span><span class="n">Resource</span><span class="p">):</span>
-        <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-            <span class="sd">''' Read data for json body '''</span>
-            <span class="n">body</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">get_json</span><span class="p">()</span>
-            
-            <span class="sd">''' Avoid garbage in, error checking '''</span>
-            <span class="c1"># validate name</span>
-            <span class="n">name</span> <span class="o">=</span> <span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'name'</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">name</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">name</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
-                <span class="k">return</span> <span class="p">{</span><span class="s1">'message'</span><span class="p">:</span> <span class="sa">f</span><span class="s1">'Name is missing, or is less than 2 characters'</span><span class="p">},</span> <span class="mi">210</span>
-            <span class="c1"># validate uid</span>
-            <span class="n">ticker</span> <span class="o">=</span> <span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'ticker'</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">ticker</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">ticker</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
-                <span class="k">return</span> <span class="p">{</span><span class="s1">'message'</span><span class="p">:</span> <span class="sa">f</span><span class="s1">'Ticker ID is missing, or is less than 2 characters'</span><span class="p">},</span> <span class="mi">210</span>
-            
-            <span class="sd">''' #1: Key code block, setup USER OBJECT '''</span>
-            <span class="n">so</span> <span class="o">=</span> <span class="n">Stock</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> 
-                      <span class="n">ticker</span><span class="o">=</span><span class="n">ticker</span><span class="p">)</span>
-            
-            <span class="sd">''' Additional garbage error checking '''</span>
-            
-            <span class="n">rating</span> <span class="o">=</span> <span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"rating"</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">rating</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-                <span class="n">so</span><span class="o">.</span><span class="n">rating</span> <span class="o">=</span> <span class="n">rating</span>
-            
-            <span class="sd">''' #2: Key Code block to add user to database '''</span>
-            <span class="c1"># create user in database</span>
-            <span class="n">stock</span> <span class="o">=</span> <span class="n">so</span><span class="o">.</span><span class="n">create</span><span class="p">()</span>
-            <span class="c1"># success returns json of user</span>
-            <span class="k">if</span> <span class="n">stock</span><span class="p">:</span>
-                <span class="k">return</span> <span class="n">jsonify</span><span class="p">(</span><span class="n">stock</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
-            <span class="c1"># failure returns error</span>
-            <span class="k">return</span> <span class="p">{</span><span class="s1">'message'</span><span class="p">:</span> <span class="sa">f</span><span class="s1">'Processed </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">, either a format occured'</span><span class="p">},</span> <span class="mi">210</span>
-
-    <span class="k">class</span> <span class="nc">_Read</span><span class="p">(</span><span class="n">Resource</span><span class="p">):</span>
-        <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-            <span class="n">stocks</span> <span class="o">=</span> <span class="n">Stock</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>    <span class="c1"># read/extract all users from database</span>
-            <span class="n">json_ready</span> <span class="o">=</span> <span class="p">[</span><span class="n">stock</span><span class="o">.</span><span class="n">read</span><span class="p">()</span> <span class="k">for</span> <span class="n">stock</span> <span class="ow">in</span> <span class="n">stocks</span><span class="p">]</span>  <span class="c1"># prepare output in json</span>
-            <span class="k">return</span> <span class="n">jsonify</span><span class="p">(</span><span class="n">json_ready</span><span class="p">)</span>  <span class="c1"># jsonify creates Flask response object, more specific to APIs than json.dumps</span>
-
-    <span class="c1"># building RESTapi endpoint</span>
-    <span class="n">api</span><span class="o">.</span><span class="n">add_resource</span><span class="p">(</span><span class="n">_Create</span><span class="p">,</span> <span class="s1">'/create'</span><span class="p">)</span>
-    <span class="n">api</span><span class="o">.</span><span class="n">add_resource</span><span class="p">(</span><span class="n">_Read</span><span class="p">,</span> <span class="s1">'/'</span><span class="p">)</span>
 </pre></div>
 
     </div>
